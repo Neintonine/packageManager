@@ -1,10 +1,13 @@
 {
   "name": "com.iedsoftworks.release",
   "version": "1.0.0",
+  "description": "Adds a tool to manage the package.json for your package",
+  "displayName": "Package.JSON Manager",
   "unity": "2020.3",
   "author": {
     "name": "iedSoftworks",
     "email": "michel.fedde@gmail.com",
     "url": "https://www.iedsoftworks.com/"
-  }
+  },
+  "hideInEditor": true
 }
