@@ -1,0 +1,10 @@
+{
+  "name": "com.iedsoftworks.release",
+  "version": "1.0.0",
+  "unity": "2020.3",
+  "author": {
+    "name": "iedSoftworks",
+    "email": "michel.fedde@gmail.com",
+    "url": "https://www.iedsoftworks.com/"
+  }
+}
