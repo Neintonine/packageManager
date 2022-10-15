@@ -270,8 +270,6 @@ namespace Package_Manager
                 jObject.Add("samples", samples);
             }
             
-            Debug.Log(_path);
-            Debug.Log(Path.GetFullPath(Path.Combine(Application.dataPath, "..", _path)));
             File.WriteAllText(Path.GetFullPath(Path.Combine(Application.dataPath, "..", _path)), jObject.ToString());
             AssetDatabase.ImportAsset(_path);
         }
